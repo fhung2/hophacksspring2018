@@ -1,7 +1,88 @@
-Digit train:
-    hog: 0.6276
-    scat: 0.5952
+KMeans
+    Digit train:
+        hog: 0.6276
+        scat: 0.5952
 
-Objects train:
-    hog: 0.3608
-    scat: 0.284
+    Objects train:
+        hog: 0.3608
+        scat: 0.284
+
+SpectralClustering
+    Digit train:
+        hog (default): 0.5892
+        n_neighbors: 1 accr: 0.21
+        n_neighbors: 2 accr: 0.2132
+        n_neighbors: 3 accr: 0.7894
+        n_neighbors: 4 accr: 0.7064
+        n_neighbors: 5 accr: 0.703
+        n_neighbors: 6 accr: 0.6996
+        n_neighbors: 7 accr: 0.6998
+        n_neighbors: 8 accr: 0.7004
+        n_neighbors: 9 accr: 0.6988
+        n_neighbors: 10 accr: 0.6984
+        gamma: 0.1 accr: 0.6574
+        gamma: 0.15 accr: 0.6566
+        gamma: 0.2 accr: 0.6574
+        gamma: 0.25 accr: 0.661
+        gamma: 0.3 accr: 0.6596
+        gamma: 0.35 accr: 0.661
+        gamma: 0.4 accr: 0.6616
+        gamma: 0.45 accr: 0.6596
+        gamma: 0.5 accr: 0.6556
+        gamma: 0.55 accr: 0.6488
+        gamma: 0.6 accr: 0.6442
+        gamma: 0.65 accr: 0.6412
+        gamma: 0.7 accr: 0.6354
+        gamma: 0.75 accr: 0.63
+        gamma: 0.8 accr: 0.622
+        gamma: 0.85 accr: 0.614
+        gamma: 0.9 accr: 0.6022
+        gamma: 0.95 accr: 0.5932
+        gamma: 1 accr: 0.59
+
+
+    Objects train:
+        hog:
+            gamma: 0.1 accr: 0.3378
+            gamma: 0.2 accr: 0.328
+            gamma: 0.3 accr: 0.335
+            gamma: 0.4 accr: 0.338
+            gamma: 0.5 accr: 0.3288
+            gamma: 0.6 accr: 0.326
+            gamma: 0.7 accr: 0.354
+            gamma: 0.8 accr: 0.3682
+            gamma: 0.9 accr: 0.2896
+            gamma: 1 accr: 0.2454
+            gamma: 1.1 accr: 0.2202
+            gamma: 1.2 accr: 0.2008
+            gamma: 1.3 accr: 0.2008
+            gamma: 1.4 accr: 0.2008
+            gamma: 1.5 accr: 0.203
+            gamma: 1.6 accr: 0.203
+            gamma: 1.7 accr: 0.203
+            gamma: 1.8 accr: 0.2028
+            gamma: 1.9 accr: 0.2028
+            gamma: 2 accr: 0.2024
+
+            gamma: 0.5 accr: 0.3288
+            gamma: 0.55 accr: 0.326
+            gamma: 0.6 accr: 0.326
+            gamma: 0.65 accr: 0.3466
+            gamma: 0.7 accr: 0.354
+            gamma: 0.75 accr: 0.333
+            gamma: 0.8 accr: 0.3682
+            gamma: 0.85 accr: 0.3282
+            gamma: 0.9 accr: 0.2896
+            gamma: 0.95 accr: 0.2522
+            gamma: 1 accr: 0.2454
+
+            n_neighbors: 1 accr: 0.206
+            n_neighbors: 2 accr: 0.2132
+            n_neighbors: 3 accr: 0.2026
+            n_neighbors: 4 accr: 0.333
+            n_neighbors: 5 accr: 0.3464
+            n_neighbors: 6 accr: 0.3682
+            n_neighbors: 7 accr: 0.372
+            n_neighbors: 8 accr: 0.3206
+            n_neighbors: 9 accr: 0.3128
+            n_neighbors: 10 accr: 0.3634

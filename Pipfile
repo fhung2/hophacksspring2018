@@ -9,6 +9,7 @@ name = "pypi"
 
 sklearn = "*"
 scipy = "*"
+matplotlib = "*"
 
 
 [dev-packages]
