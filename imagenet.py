@@ -5,7 +5,7 @@ from keras.applications.vgg16 import preprocess_input
 import numpy as np
 from scipy.io import loadmat
 from skimage.transform import resize
-data = loadmat("./objects-train.mat")
+data = loadmat("../objects/objects-train.mat")
 images = data["images_train"]
 
 images = np.array(images).T
@@ -26,7 +26,7 @@ for i in images:
 	if count % 10 == 0:
 		print("10 images processed")
 	elif count >= 100:
-		break 
+		break
 	i = np.reshape(i,(28,28))
 	i = np.dstack((i,i,i))
 	i = resize(i,(48,48))
@@ -46,8 +46,8 @@ x = preprocess_input(x)
 #print(x)
 
 features = model.predict(x)
-
+print(features.shape)
+features.reshape((100,512))
+print(features.shape)
 print(features)
 print("here")
-
-
