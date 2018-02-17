@@ -6,7 +6,7 @@ from scipy.optimize import linear_sum_assignment
 
 # data = loadmat('../digits/digits-train.mat')
 
-data = loadmat('../objects/objects-train.mat')
+data = loadmat('./objects/objects-train.mat')
 
 # fea_hog = np.array(data['fea_hog_train'])
 
