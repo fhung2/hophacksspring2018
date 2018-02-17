@@ -1,1 +1,7 @@
-496: 0.6276
+Digit train:
+    hog: 0.6276
+    scat: 0.5952
+
+Objects train:
+    hog: 0.3608
+    scat: 0.284

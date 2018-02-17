@@ -4,9 +4,13 @@ import numpy as np
 from sklearn.metrics.cluster import supervised
 from scipy.optimize import linear_sum_assignment
 
-data = loadmat('../digits/digits-train.mat')
+# data = loadmat('../digits/digits-train.mat')
 
-fea_hog = np.array(data['fea_hog_train'])
+data = loadmat('../objects/objects-train.mat')
+
+# fea_hog = np.array(data['fea_hog_train'])
+
+fea_hog = np.array(data['fea_scat_train'])
 
 labels = np.array(data['labels_train']).flatten()
 
